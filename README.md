@@ -1,4 +1,4 @@
-# Youtube::Dl
+# youtube-dl
 
 TODO: Write a gem description
 
@@ -17,7 +17,7 @@ Or install it yourself as:
     $ gem install youtube-dl
 
 ## Usage
-# OPTIONS
+### Options
     -h, --help               print this help text and exit
     --version                print program version and exit
     -U, --update             update this program to latest version
@@ -34,7 +34,7 @@ Or install it yourself as:
     --list-extractors        List all supported extractors and the URLs they
                              would handle
 
-# Video Selection:
+### Video Selection:
     --playlist-start NUMBER  playlist video to start at (default is 1)
     --playlist-end NUMBER    playlist video to end at (default is last)
     --match-title REGEX      download only matching titles (regex or caseless
@@ -43,7 +43,7 @@ Or install it yourself as:
                              caseless sub-string)
     --max-downloads NUMBER   Abort after downloading NUMBER files
 
-# Filesystem Options:
+### Filesystem Options:
     -t, --title              use title in file name
     --id                     use video ID in file name
     -l, --literal            [deprecated] alias of --title
@@ -74,7 +74,7 @@ Or install it yourself as:
     --write-description      write video description to a .description file
     --write-info-json        write video metadata to a .info.json file
 
-# Verbosity / Simulation Options:
+### Verbosity / Simulation Options:
     -q, --quiet              activates quiet mode
     -s, --simulate           do not download the video and do not write anything
                              to disk
@@ -89,7 +89,7 @@ Or install it yourself as:
     --console-title          display progress in console titlebar
     -v, --verbose            print various debugging information
 
-# Video Format Options:
+### Video Format Options:
     -f, --format FORMAT      video format code
     --all-formats            download all available video formats
     --prefer-free-formats    prefer free video formats unless a specific one is
@@ -101,12 +101,12 @@ Or install it yourself as:
     --srt-lang LANG          language of the closed captions to download
                              (optional) use IETF language tags like 'en'
 
-# Authentication Options:
+### Authentication Options:
     -u, --username USERNAME  account username
     -p, --password PASSWORD  account password
     -n, --netrc              use .netrc authentication data
 
-# Post-processing Options:
+### Post-processing Options:
     -x, --extract-audio      convert video files to audio-only files (requires
                              ffmpeg or avconv and ffprobe or avprobe)
     --audio-format FORMAT    "best", "aac", "vorbis", "mp3", "m4a", "opus", or
