@@ -5,7 +5,7 @@ require 'youtube-dl/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "youtube-dl"
-  gem.version       = Youtube::Dl::VERSION
+  gem.version       = Youtube::VERSION
   gem.authors       = ["Matthew Perry"]
   gem.email         = ["muffinman616@gmail.com"]
   gem.description   = %q{TODO: Write a gem description}
