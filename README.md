@@ -17,6 +17,7 @@ Or install it yourself as:
     $ gem install youtube-dl
 
 ## Usage
+    youtube-dl [options] url [url...]
 ### Options
     -h, --help               print this help text and exit
     --version                print program version and exit
