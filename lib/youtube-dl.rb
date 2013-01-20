@@ -1,7 +1,8 @@
 require "youtube-dl/version"
+require "youtube-dl/application"
 
 module Youtube
-  module Dl
-    # Your code goes here...
+  def self.application
+    @application ||= Youtube::Application.new
   end
 end
