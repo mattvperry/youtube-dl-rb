@@ -5,8 +5,7 @@ module Youtube
   class Application
     def run
       parse_options
-
-      puts options
+      [:version, :dump_user_agent, :list_extractors].each { |sym| send(sym) if options.send sym }
     end
 
     def options
@@ -14,7 +13,7 @@ module Youtube
     end
 
     private
-    def print_version
+    def version
       puts Youtube::VERSION
       exit
     end
